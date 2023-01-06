@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "horrormask",
+  "version": "1.0",
+
+  "name": "Horror Mask",
+  "authors": [
+    "Ada Morgan"
+  ],
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "core.Main"
+    ],
+    "client": [
+      "core.Client"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": ">=1.14",
+    "java": ">=17"
+  }
+}

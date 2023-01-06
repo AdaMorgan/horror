@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mask:jason_mask",
+    "mask:myers_mask",
+    "mask:krueger_mask",
+    "mask:scream_mask"
+  ]
+}
